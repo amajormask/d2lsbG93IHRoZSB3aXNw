@@ -8,7 +8,7 @@ body{
 }
 
 .header h1{
-  font-family: Buda;
+  font-family: 'Buda';
   font-size: 22px;
-  font-color: #c0c0c0;
+  color: #c0c0c0;
 }
