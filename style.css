@@ -3,11 +3,11 @@ body{
   font-size:8px;
 }
 
-header{
+.header{
   
 }
 
-header h1{
+.header h1{
   font-family: Buda;
   font-size: 22px;
   font-color: #c0c0c0;
