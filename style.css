@@ -14,7 +14,7 @@ body{
   text-transform: uppercase;
 }
 
-#navtop ul{
+#navtop{
   position: absolute;
   top: 0px;
   right:10%;
@@ -25,15 +25,13 @@ body{
   display: inline-block;
   padding: 5px;
   height:100%;
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
-}
-
-#navtop a:link, #navtop a:active, #navtop a:visited{
   text-transform: lowercase;
   font-family: 'garamond';
   color: #c0c0c0;
   text-decoration:none;
+  font-size:10px;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 #navtop li:hover{
