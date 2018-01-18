@@ -11,4 +11,25 @@ body{
   font-family: 'Buda';
   font-size: 22px;
   color: #c0c0c0;
+  text-transform: uppercase;
+}
+
+#topnav li{
+  background-color:black;
+  display: inline-block;
+  padding: 5px;
+  height:100%;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+#topnav a:link, #topnav a:active, #topnav a:visited{
+  text-transform: lowercase;
+  font-family: 'garamond';
+  color: #c0c0c0;
+  text-decoration:none;
+}
+
+#topnav li:hover{
+  background-color:white;
 }
