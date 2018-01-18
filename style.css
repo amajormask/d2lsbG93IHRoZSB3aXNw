@@ -9,12 +9,18 @@ body{
 
 .header h1{
   font-family: 'Buda';
-  font-size: 22px;
+  font-size: 30px;
   color: #c0c0c0;
   text-transform: uppercase;
 }
 
-#topnav li{
+#navtop ul{
+  position: absolute;
+  top: 0px;
+  right:10%;
+}
+
+#navtop li{
   background-color:black;
   display: inline-block;
   padding: 5px;
@@ -23,13 +29,13 @@ body{
   transition: background-color 1s;
 }
 
-#topnav a:link, #topnav a:active, #topnav a:visited{
+#navtop a:link, #navtop a:active, #navtop a:visited{
   text-transform: lowercase;
   font-family: 'garamond';
   color: #c0c0c0;
   text-decoration:none;
 }
 
-#topnav li:hover{
+#navtop li:hover{
   background-color:white;
 }
