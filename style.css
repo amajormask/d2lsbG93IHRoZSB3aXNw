@@ -36,7 +36,7 @@ body{
   text-transform: lowercase;
   font-family: 'garamond';
   color: #c0c0c0;
-  text-decoration:italics;
+  text-decoration:italic;
   font-size:18px;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
