@@ -53,13 +53,20 @@ a:link,a:visited,a:active{
 }
 
 #content{
-  padding-top:500px;
-  min-height:500px;
-  height:100%;
+  z-index:2;
+  position:absolute;
+  top:500px;
+  left:0px;
   width:100%;
+  padding:5px;
+  min-height:500px;
+  
 }
 
 #footer{
+  z-index:0;
+  position:fixed;
+  bottom:0px;
   min-height:100px;
   background-color:black;
 }
