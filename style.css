@@ -14,7 +14,7 @@ a:link,a:visited,a:active{
 }
 
 #headerbg,#header{
-  background-image: url(https://www.dropbox.com/s/wojz31xlxs1vqc5/bwheader.png?raw=1);
+  background: url(https://www.dropbox.com/s/wojz31xlxs1vqc5/bwheader.png?raw=1) no-repeat;
   background-position:0px -20px;
   background-size:100%;
   width:100%;
@@ -34,9 +34,10 @@ a:link,a:visited,a:active{
 }
 
 #header h1{
-  font-family: 'Buda';
+  font-family: 'garamond';
   font-size: 35px;
-  padding:15px;
+  padding-left:20px;
+  padding-top:20px;
   text-shadow:0px 0px 5px black;
   color: #FFF;
   text-transform: uppercase;
