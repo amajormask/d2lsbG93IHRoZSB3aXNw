@@ -109,3 +109,8 @@ div.front{
 #footer a:hover{
   font-style:bold;
 }
+
+.item{
+  float:left;
+  padding:5px;
+}
