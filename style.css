@@ -3,7 +3,7 @@ body{
   font-size:8px;
 }
 
-a{
+a:link,a:visited,a:active;{
  text-decoration:none;
  color:#565656;
 }
@@ -97,7 +97,5 @@ a{
 }
 
 #footer a:hover{
-  font-size:15px;
-  font-family:garamond;
   font-style:bold;
 }
