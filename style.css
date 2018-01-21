@@ -15,8 +15,8 @@ a:link,a:visited,a:active{
 
 #headerbg,#header{
   background-image: url(https://www.dropbox.com/s/wojz31xlxs1vqc5/bwheader.png?raw=1);
-  background-position:-10px;
-  background-size:cover;
+  background-position:0px -20px;
+  background-size:100%;
   width:100%;
   position: fixed;
   top:0px;
