@@ -42,14 +42,15 @@ a:link,a:visited,a:active{
   font-family: 'garamond';
   color: #c0c0c0;
   text-decoration:none;
-  text-style: italic;
+  font-style: italic;
   font-size:18px;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
 }
 
-#navtop li:hover{
+#navtop li:hover, #navtop a:hover{
   background-color:white;
+  font-color:black;
 }
 
 #content{
