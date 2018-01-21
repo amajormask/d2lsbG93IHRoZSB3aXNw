@@ -77,8 +77,6 @@ a:link,a:visited,a:active{
 
 #footer{
   z-index:0;
-  position:fixed;
-  bottom:0px;
   width:100%;
   min-height:100px;
   background-color:black;
