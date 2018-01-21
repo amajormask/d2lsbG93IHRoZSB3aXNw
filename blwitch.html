@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Buda:300" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <script>
+  var item = [ 
+ ["https://madeitsyd.blob.core.windows.net/2018-01-18/2_57a482274f17456c89fe3423448cebc9IMG_4252_preview.jpeg","Bat print overalls", "$60"],
+ ["https://madeitsyd.blob.core.windows.net/2018-01-18/2_57a482274f17456c89fe3423448cebc9IMG_4252_preview.jpeg","Bat print overalls", "$60"]
+  ];
+
+  for(i=0;i<2;i++){
+	var div = document.createElement('div');
+	div.innerHTML = "<img src=\""+item[i][0]+"\"><br>"+item[i][1]+"<br>"+item[i][2];
+	div.setAttribute('class', 'item');
+	document.getElementById("itemsTable").appendChild(div);
+  }
+  </script>
+  
+  <title>Willow the Wisp || Black Witch Collection</title>
+</head>
+<body>
+  
+<div id="header">
+  <h1>Willow the Wisp</h1>
+  
+  <ul id="navtop">
+    <li><a href="https://madeit.com.au/Main/Store?storeid=22194">Storefront</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/sizing.html">Sizing</a></li>
+    <li><a href=#>Shipping</a></li>
+  </ul>
+</div>
+  
+<div class="nav">
+</div>
+ 
+<div class="content">
+  <p id=itemsTable>
+  
+  </p>
+</div>
+  
+  
+<div id="footer">
+  <p>
+  <a href="https://www.instagram.com/willow_the_wisp_fashion/">Instagram.</a>
+  </p>
+</div>
+
+</body>
+</html>
