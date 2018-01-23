@@ -36,9 +36,9 @@
  ["https://madeitsyd.blob.core.windows.net/2018-01-14/2_fb875623483d4bfb85d306026ccbf240IMG_4388.JPG","https://madeit.com.au/Main/Item?itemId=1223870","Blood Splash Dress","$65"]
   ];
 
-  for(i=0;i<2;i++){
+  for(i=0;i<7;i++){
 	var div = document.createElement('div');
-	div.innerHTML = "<img src=\""+item[i][0]+"\"><br>"+item[i][1]+"<br>"+item[i][2];
+	div.innerHTML = "<a href=\""+item[i][1]+"\"><img src=\""+item[i][0]+"\"><br>"+item[i][2]+"<br>"+item[i][3]+"</a>";
 	div.setAttribute('class', 'item');
 	document.getElementById("itemsTable").appendChild(div);
   }
