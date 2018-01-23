@@ -110,6 +110,10 @@ div.front{
   font-style:bold;
 }
 
+#itemsTable{
+  height:auto; 
+}
+
 .item{
   float:left;
   padding:5px;
