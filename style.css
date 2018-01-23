@@ -111,7 +111,9 @@ div.front{
 }
 
 #itemsTable{
-  height:auto; 
+  height:auto;
+  margin:auto;
+  text-align:center;
 }
 
 .item{
