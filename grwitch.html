@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Buda:300" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Willow the Wisp || Green Witch Collection</title>
+</head>
+<body>
+  
+<div id="header">
+  <h1>Willow the Wisp</h1>
+  
+  <ul id="navtop">
+    <li><a href="https://madeit.com.au/Main/Store?storeid=22194">Storefront</a></li>
+    <li><a href="d2lsbG93IHRoZSB3aXNw/about.html">About</a></li>
+    <li><a href="d2lsbG93IHRoZSB3aXNw/sizing.html">Sizing</a></li>
+    <li><a href=#>Shipping</a></li>
+  </ul>
+</div>
+  
+<div class="nav">
+</div>
+ 
+<div class="content">
+  <div id=itemsTable>
+  <script>
+  var item = [ 
+ ["https://madeitsyd.blob.core.windows.net/2018-01-18/2_57a482274f17456c89fe3423448cebc9IMG_4252_preview.jpeg","https://madeit.com.au/Main/Item?itemId=1224386","Bat Print Overalls", "$60"],
+ ["https://madeitsyd.blob.core.windows.net/2018-01-18/2_4935891d5f3b4be4bd72056b30b50516IMG_3994_preview.jpeg","https://madeit.com.au/Main/Item?itemId=1224384","Black Widow Dress", "$90"],
+ ["https://madeitsyd.blob.core.windows.net/2018-01-18/2_ac59e628df464bbc99f5f00c8a0c2cbfIMG_4347_preview.jpeg","https://madeit.com.au/Main/Item?itemId=1224347","Rose Print Shorts","$50"],
+ ["https://madeitsyd.blob.core.windows.net/2018-01-18/2_4d031d37240449ebb38381e278555b41IMG_4363_preview.jpeg","https://madeit.com.au/Main/Item?itemId=1224316","Asymmetric Skirt","$60"],
+ ["https://madeitsyd.blob.core.windows.net/2018-01-18/2_d641a52740304c049f6fc0fd1bb0a350sammy.jpg","https://madeit.com.au/Main/Item?itemId=1224307","Black Floral Vest","$65"],
+ ["https://madeitsyd.blob.core.windows.net/2018-01-14/2_9ba89fa3ade84d7e9f11154bf4be5f15IMG_4446.JPG","https://madeit.com.au/Main/Item?itemId=1223871","Orange and Black Bat Pants","$40"],
+ ["https://madeitsyd.blob.core.windows.net/2018-01-14/2_fb875623483d4bfb85d306026ccbf240IMG_4388.JPG","https://madeit.com.au/Main/Item?itemId=1223870","Blood Splash Dress","$65"]
+  ];
+  for(i=0;i<7;i++){
+	var div = document.createElement('div');
+	div.innerHTML = "<a href=\""+item[i][1]+"\"><img src=\""+item[i][0]+"\"><br>"+item[i][2]+"<br>"+item[i][3]+"</a>";
+	div.setAttribute('class', 'item');
+	document.getElementById("itemsTable").appendChild(div);
+  }
+  </script>
+  </div>
+</div>
+  
+  
+<div id="footer">
+  <p>
+  <a href="https://www.instagram.com/willow_the_wisp_fashion/">Instagram.</a>
+  </p>
+</div>
+
+</body>
+</html>
