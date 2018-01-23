@@ -113,4 +113,9 @@ div.front{
 .item{
   float:left;
   padding:5px;
+  border:1px solid black;
+}
+
+.item b{
+  color:purple; 
 }
